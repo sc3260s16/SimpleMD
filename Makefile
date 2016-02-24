@@ -6,7 +6,7 @@ BINDIR = bin
 
 # Compiler rules
 CC=icc
-CFLAGS=-I$(INCDIR) -Wall -fast -vec_report2
+CFLAGS=-I$(INCDIR) -Wall -xHost -O3 -vec_report2
 
 # Linker flags and libs
 LDFLAGS=
